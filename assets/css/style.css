@@ -1,0 +1,49 @@
+<<<<<<< HEAD
+	body{
+		background:#efefef;
+		font-family:'Didactic',Serif;
+	}
+/*> Navigation*/
+	#site-nav{
+		padding:0.5em;
+		box-sizing:border-box;
+		width:100%;
+		line-height:2.5em;
+		display:inline-block;
+	}
+	#site-nav h1{
+		float:left;
+		font-size:2em;
+	}
+	#site-nav ul{
+		
+		float:right;
+	}
+	#site-nav ul li{
+		display:inline-block;
+		font-size:1.3em;
+	}
+/*> Footer*/
+	#site-footer{
+		padding:1em;
+		box-sizing:border-box;
+		width:100%;
+		display:inline-block;
+	}
+	#site-footer .copyright{
+		float:left;
+	}
+	#site-footer .ghost{
+		float:right;
+	}
+	
+=======
+/*> Navigation*/
+	#nav{
+		width:100%;
+		display:inline-block;
+	}
+	
+	
+>>>>>>> 96d6b07d8267071fcb123d5568adda23fb4b367f
+	

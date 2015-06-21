@@ -1,0 +1,15 @@
+<div id="post-loop">
+	{{#foreach posts}}
+		<article>
+			<header>
+				<a href="{{url}}"><h1>{{title}}</h1></a>
+			</header>
+			<section>
+				<p>{{excerpt words="40"}}</p>
+			</section>
+			<footer>
+				
+			</footer>
+		</article>
+	{{/foreach}}
+</div>
