@@ -4,6 +4,10 @@
 		font-family:'Didactic',Serif;
 	}
 /*> Navigation*/
+	.site-logo{
+		max-height:90px;
+		width:auto;
+	}
 	#site-nav{
 		padding:0.5em;
 		box-sizing:border-box;
@@ -11,13 +15,22 @@
 		line-height:2.5em;
 		display:inline-block;
 		color:#000;
+
+	}
+	#site-nav .wrapper{
+		border-bottom:1px solid rgba(0, 0, 0, 0.2);
 	}
 	#site-nav h1{
 		float:left;
 		font-size:2em;
 	}
 	#site-nav ul{
+		padding-right:2.5em;
+		box-sizing: border-box;
 		float:right;
+	}
+	#site-nav ul li.margin{
+			margin-top:30px;
 	}
 	#site-nav ul li{
 		display:inline-block;
