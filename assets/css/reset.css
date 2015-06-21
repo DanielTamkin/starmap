@@ -96,7 +96,7 @@ table {
 /* - MyResets - */
 	h1{font-size:3em;position:relative;top:0;left:0;}
 	h2{font-size:1.5em;position:relative;top:0;left:0;}
-	p{font-size:1em;/*position:relative;top:0;left:0;*/}
+	p{font-size:1.1em;/*position:relative;top:0;left:0;*/}
 /*Font Resize*/
 		@media all and (max-width: 1000px) {
 			body{font-size:100%;}

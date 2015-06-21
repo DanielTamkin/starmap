@@ -1,5 +1,6 @@
 	body{
 		background:#efefef;
+		color:#273a34;
 		font-family:'Didactic',Serif;
 	}
 /*> Navigation*/
@@ -9,6 +10,7 @@
 		width:100%;
 		line-height:2.5em;
 		display:inline-block;
+		color:#000;
 	}
 	#site-nav h1{
 		float:left;
@@ -20,6 +22,40 @@
 	#site-nav ul li{
 		display:inline-block;
 		font-size:1.3em;
+	}
+/*> loop*/
+	#loop .post{
+		margin:2.6em 0;
+	}
+	#loop .post-image{
+		float:left;
+	}
+	#loop .post-content{
+		float:right;
+	}
+	#loop .header{
+		font-size:1.4em;
+	}
+	#loop  img{
+		height:65px;
+		width:auto;
+	}
+	#loop .content{
+		margin:1em 0;
+	}
+	#loop .footer{
+		margin:1em 0;
+		width:100%;
+		display:inline-block;
+	}
+	#loop .footer .author{
+		float:left;
+		opacity:0.6;
+	}
+	#loop .footer .read{
+		display:inline-block;
+		float:right;
+		color:#EE4938;
 	}
 /*> Footer*/
 	#site-footer{
@@ -34,7 +70,11 @@
 	#site-footer .ghost{
 		float:right;
 	}
+
+/*> Navigation*/
+>>>>>>> Continued Design.
 	#nav{
 		width:100%;
 		display:inline-block;
 	}
+

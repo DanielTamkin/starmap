@@ -1,4 +1,4 @@
-<div id="post-loop">
+<div id="loop">
 	{{#foreach posts}}
 		<article>
 			<header>
@@ -15,5 +15,29 @@
 
 			</footer>
 		</article>
+
+		<div class="post">
+			{{#if image}}		
+				<div class="post-image">
+					<img src="{{image}}"/>
+				</div>
+			{{/if}}
+			<div class="post-content">
+				<div class="header">
+					<a href="{{url}}"><h1>{{title}}</h1></a>
+				</div>
+				<div class="content">
+					{{excerpt words="41"}}
+				</div>
+				<div class="footer">
+					{{#author}}
+						<p class="author">by <a href="{{url}}">{{name}}</a> on the {{date format="DD MMMM YYYY"}}.</p>
+					{{/author}}
+					<a href="{{url}}"><div class="read">read more</div></a>
+				</div>
+			</div>
+			<div style="float:none;"></div>
+		</div>
+
 	{{/foreach}}
 </div>
