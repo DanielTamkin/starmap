@@ -2,5 +2,31 @@
 
 {{! post template}}
 {{#post}}
-	<h1>{{title}}</h1>
+	<article id="post" class="Container-Small">
+		<header class="Container-">
+			{{#if image}}
+				<div class="image">
+					<img src="{{image}}"/>
+				</div>
+			{{/if}}
+			<h1>{{title}}</h1>
+		</header>
+		<section class="body">
+			{{content}}
+		</section>
+		<footer>
+			{{#author}}
+				<section class="author">
+					<h2>by {{name}}</h2>
+					<a href="{{url}}"><p>read more.</p></a>
+				</section>
+			{{/author}}
+			<section class="social">
+				<h2>Share</h2>
+				<p>
+				Share on <a href="">Twitter</a>, facebook.
+				</p>
+			</section>
+		</footer>
+	</article>
 {{/post}}

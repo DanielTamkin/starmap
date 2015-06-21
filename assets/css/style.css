@@ -1,6 +1,6 @@
 	body{
 		background:#efefef;
-		color:#273a34;
+		color:#3A3A3A;
 		font-family:'Didactic',Serif;
 	}
 /*> Navigation*/
@@ -24,38 +24,74 @@
 		font-size:1.3em;
 	}
 /*> loop*/
-	#loop .post{
-		margin:2.6em 0;
+	#loop article{
+		margin:15px 0;
+
 	}
-	#loop .post-image{
-		float:left;
+	#loop article header{
+		margin-bottom:20px;
 	}
-	#loop .post-content{
-		float:right;
+	#loop article section.title{
+		margin:10px 0;
 	}
-	#loop .header{
-		font-size:1.4em;
+	#loop article section.title h1{
+		margin:5px 0;
+		color:#3A3A3A;
+		font-size:2.6em;
+
 	}
-	#loop  img{
-		height:65px;
-		width:auto;
+	#loop article section.title p{
+			margin-top:10px;
+			color:rgba(0, 0, 0, 0.4);
+			font-size:1.1em;
+			display:inline-block;
 	}
-	#loop .content{
-		margin:1em 0;
+	#loop article section.excerpt{
+		line-height:1.6;
+		font-size:1em;
 	}
-	#loop .footer{
-		margin:1em 0;
-		width:100%;
-		display:inline-block;
-	}
-	#loop .footer .author{
-		float:left;
-		opacity:0.6;
-	}
-	#loop .footer .read{
-		display:inline-block;
-		float:right;
+	#loop article section.excerpt .readmore{
 		color:#EE4938;
+	}
+/*> post*/
+	#post{
+		margin:60px auto;
+
+	}
+	#post header{
+		margin:40px 0;
+	}
+	#post header .image{
+			margin:20px 0;
+			text-align:center;
+	}
+	#post header img{
+		width:80%;
+		max-width:235px;
+		height:auto;
+		display:inline-block;
+	}
+	#post header h1{
+		font-size:6.1em;
+	}
+	#post section.body{
+		line-height:1.6;
+		text-indent:6px;
+	}
+	#post footer{
+		padding:15px 0;
+		margin:30px 0;
+		border-top:1px solid #ddd;
+	}
+	#post footer p{
+		margin-top:6px;
+	}
+	#post footer .author{
+			float:left;
+	}
+	#post footer .social{
+		float:right;
+		text-align:right;
 	}
 /*> Footer*/
 	#site-footer{
@@ -72,9 +108,7 @@
 	}
 
 /*> Navigation*/
->>>>>>> Continued Design.
 	#nav{
 		width:100%;
 		display:inline-block;
 	}
-

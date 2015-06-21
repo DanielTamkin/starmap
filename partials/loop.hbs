@@ -1,43 +1,20 @@
-<div id="loop">
+<div id="loop" class="Container-Small">
 	{{#foreach posts}}
 		<article>
 			<header>
-				<a href="{{url}}"><h1>{{title}}</h1></a>
-
-                {{#author}}
-                    <div><a href='{{url}}'>{{name}}</a></div>
-                {{/author}}
+				<section class="title">
+					<a href="{{url}}"><h1>{{title}}</h1></a>
+					{{#author}}
+						<p>by <a href="{{url}}">{{name}}</a></p>
+					{{/author}}
+				</section>
 			</header>
-			<section>
-				<p>{{excerpt words="40"}}</p>
+			<section class="excerpt">
+				<p>{{excerpt words="40"}}...<a href="{{url}}" class="readmore">read more</a></p>
 			</section>
 			<footer>
 
 			</footer>
 		</article>
-
-		<div class="post">
-			{{#if image}}		
-				<div class="post-image">
-					<img src="{{image}}"/>
-				</div>
-			{{/if}}
-			<div class="post-content">
-				<div class="header">
-					<a href="{{url}}"><h1>{{title}}</h1></a>
-				</div>
-				<div class="content">
-					{{excerpt words="41"}}
-				</div>
-				<div class="footer">
-					{{#author}}
-						<p class="author">by <a href="{{url}}">{{name}}</a> on the {{date format="DD MMMM YYYY"}}.</p>
-					{{/author}}
-					<a href="{{url}}"><div class="read">read more</div></a>
-				</div>
-			</div>
-			<div style="float:none;"></div>
-		</div>
-
 	{{/foreach}}
 </div>
