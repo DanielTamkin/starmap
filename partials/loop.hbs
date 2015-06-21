@@ -3,6 +3,10 @@
 		<article>
 			<header>
 				<a href="{{url}}"><h1>{{title}}</h1></a>
+
+                {{#author}}
+                    <div><a href='{{url}}'>{{name}}</a></div>
+                {{/author}}
 			</header>
 			<section>
 				<p>{{excerpt words="40"}}</p>
