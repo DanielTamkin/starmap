@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Didactic';
+  src: url('Didactic-Regular.eot'); /* IE9 Compat Modes */
+  src: url('Didactic-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Didactic-Regular.woff') format('woff'), /* Modern Browsers */
+       url('Didactic-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Didactic-Regular.svg#db6e8861a7139e426c0237f7091ac25d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
