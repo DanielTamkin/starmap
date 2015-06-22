@@ -1,6 +1,6 @@
 # starmap
 a Free, Typographic-Heavy Ghost Theme.
-
+If you have any suggestions on this theme, Tweet me [@CodeHands](https://twitter.com/CodeHands), or [create a new issue](https://github.com/DanielTamkin/starmap/issues).
 ### Installation
 1. Install Starmap to your Themes directory located at `ghost\content\themes`
 2. login to your ghost admin panel.
@@ -19,7 +19,10 @@ a Free, Typographic-Heavy Ghost Theme.
 
 ### Post
 
-![Starmap-Loop](https://www.dropbox.com/s/v4dm7ob4n17b4g2/starmap-post.png)
+![Starmap-Post](https://www.dropbox.com/s/v4dm7ob4n17b4g2/starmap-post.png)
+### Suggested
+
+![Starmap-Suggested](https://www.dropbox.com/s/eodna5sxf97u0og/starmap-suggested.png?dl=0)
 ### Loop
 
 ![Starmap-Loop](https://www.dropbox.com/s/asptjv257pd0oek/starmap-loop.png)
