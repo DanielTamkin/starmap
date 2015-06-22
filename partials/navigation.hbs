@@ -1,11 +1,13 @@
 {{! navigation template}}
 <div id="site-nav">
 	<div class="wrapper Container-Large">
-		{{#if @blog.logo}}
-			<a href="{{@blog.url}}"><img class="site-logo" src="{{@blog.logo}}"/></a>
-		{{else}}
-			<a href="{{@blog.url}}"><h1>{{@blog.title}}</h1></a>
-		{{/if}}
+		<header>
+			{{#if @blog.logo}}
+				<a href="{{@blog.url}}"><img class="site-logo" src="{{@blog.logo}}"/></a>
+			{{else}}
+				<a href="{{@blog.url}}"><h1>{{@blog.title}}</h1></a>
+			{{/if}}
+		</header>
 		<ul>
 			{{#foreach navigation}}
 				{{#if @blog.logo}}
@@ -16,4 +18,5 @@
 			{{/foreach}}
 		</ul>
 	</div>
+	<div style="float:none;"></div>
 </div>

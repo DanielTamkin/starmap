@@ -1,2 +1,2 @@
 # starmap
-a Typographic Heavy Ghost Theme.
+a Free, Typographic Heavy Ghost Theme.

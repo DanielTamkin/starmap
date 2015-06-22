@@ -26,14 +26,18 @@
 		line-height:2.5em;
 		display:inline-block;
 		color:#000;
-
+		text-align:center;
 	}
 	#site-nav .wrapper{
 		border-bottom:1px solid rgba(0, 0, 0, 0.2);
+		display:inline-block;
 	}
 	#site-nav h1{
-		float:left;
+		text-align:left;
 		font-size:2em;
+	}
+	#site-nav header{
+		float:left;
 	}
 	#site-nav ul{
 		padding-right:2.5em;
@@ -44,9 +48,49 @@
 			margin-top:30px;
 	}
 	#site-nav ul li{
+		margin-left:0.5em;
+		padding-left:0.5em;
+		box-sizing: border-box;
 		display:inline-block;
 		font-size:1.3em;
 	}
+	/*@media*/
+		@media all and (max-width: 750px) {
+				#site-nav .wrapper{
+						border:none;
+				}
+		}
+		@media all and (max-width: 600px) {
+				.site-logo{
+					max-height:60px;
+				}
+				#site-nav .site-logo{
+					display:none;
+				}
+				#site-nav h1{
+					display:none;
+				}
+				#site-nav ul{
+					padding:0;
+					float:none;
+					display:inline-block;
+					text-align:center;
+					border-bottom:1px solid rgba(0, 0, 0, 0.2);
+				}
+				#site-nav ul li{
+					padding:0;
+					margin:0;
+					padding:0 9px;
+					margin:5px 6px;
+				}
+				#site-nav header{
+					width:100%;
+					text-align:center;
+				}
+				#site-nav img{
+					text-align:center;
+				}
+		}
 /*> index*/
 	.site-cover{
 		margin:0 auto;
@@ -59,8 +103,10 @@
 		font-size:2.1em;
 		text-align:center;
 	}
-	#site-fronpage header .coverlogo{
-
+	@media all and (max-width: 750px) {
+		#site-frontpage{
+			font-size:1.1em;
+		}
 	}
 	#site-fronpage header h3{
 		color:rgba(0, 0, 0, 0.8);
@@ -192,7 +238,7 @@
 	#author header.wrapper{
 		margin:30px auto;
 		padding-bottom:20px;
-		border-bottom:1px solid rgba(0, 0, 0, 0.5);
+		border-bottom:1px solid rgba(0, 0, 0, 0.2);
 		text-align:center;
 	}
 	#author header.wrapper h1{
@@ -201,6 +247,15 @@
 	#author header.wrapper h3{
 		color:rgba(0, 0, 0, 0.2);
 	}
+	/*@media*/
+		@media all and (max-width: 750px) {
+			#author header.wrapper{
+				margin:15px auto;
+			}
+			#author header.wrapper h1{
+				font-size:3em;
+			}
+		}
 /*> Footer*/
 	#site-footer{
 		padding:1em;
