@@ -7,11 +7,9 @@
 					{{#if tags}}
 						<p>
 							{{#author}}
-								by <a href="{{url}}">{{name}} for</a>
+								by <a href="{{url}}">{{name}}</a> for
 							{{/author}}
-							{{#tags seporator=" & "}}
-								{{name}}
-							{{/tags}}
+							{{tags separator=" & "}}
 						</p>
 					{{else}}
 						{{#author}}
@@ -28,4 +26,5 @@
 			</footer>
 		</article>
 	{{/foreach}}
+		{{pagination}}
 </div>

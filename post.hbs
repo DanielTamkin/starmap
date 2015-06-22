@@ -16,15 +16,14 @@
 			{{content}}
 		</section>
 		<footer>
-			{{#author}}
-				<section class="author">
-					<h2>by {{name}}</h2>
-					{{#tags}}
-						<p>for {{name}}</p>
-					{{/tags}}
-					<a href="{{url}}"><p>read more.</p></a>
-				</section>
-			{{/author}}
+			<section class="author">
+				{{#author}}
+					<h2>by <a href="{{url}}">{{name}}</a></h2>
+				{{/author}}
+				{{#if tags}}
+					<p class="tags">for {{tags separator=" & "}}</p>
+				{{/if}}
+			</section>
 			<section class="social">
 				<h2>Share</h2>
 				<p>
@@ -33,4 +32,29 @@
 			</section>
 		</footer>
 	</article>
+	<section id="readnext" class="Container-Tiny">
+		<header class="wrapper">
+			<h3>Suggested</h3>
+		</header>
+		{{#next_post}}
+			<article class="left">
+				<header>
+					<a href="{{url}}"><h1>{{title}}</h1></a>
+				</header>
+				<section class="excerpt">
+					<p>{{excerpt words="15"}}...<a href="{{url}}" class="readmore">read more</a></p>
+				</section>
+			</article>
+		{{/next_post}}
+		{{#prev_post}}
+			<article class="left">
+				<header>
+					<a href="{{url}}"><h1>{{title}}</h1></a>
+				</header>
+				<section class="excerpt">
+					<p>{{excerpt words="15"}}...<a href="{{url}}" class="readmore">read more</a></p>
+				</section>
+			</article>
+		{{/prev_post}}
+	</section>
 {{/post}}

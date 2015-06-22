@@ -3,6 +3,13 @@
 		color:#3A3A3A;
 		font-family:'Didactic',Serif;
 	}
+	a:hover{
+		text-decoration:underline;
+	}
+	p a:hover{
+		color:#EE4938;
+		text-decoration:underline;
+	}
 /*> Navigation*/
 	.site-logo{
 		max-height:90px;
@@ -40,6 +47,7 @@
 	#loop article{
 		margin:25px 0;
 		margin-bottom:40px;
+		float:left;
 	}
 	#loop article header{
 		margin-bottom:20px;
@@ -119,11 +127,16 @@
 	#post section.body img{max-height:600px;width:auto;}
 	#post footer{
 		padding:15px 0;
+		box-sizing:border-box;
 		margin:30px 0;
 		border-top:1px solid #ddd;
 	}
+	#post footer h2{
+		margin-bottom:9px;
+	}
 	#post footer p{
 		margin-top:6px;
+		color:rgba(0, 0, 0, 0.2);
 	}
 	#post footer .author{
 			float:left;
@@ -132,6 +145,26 @@
 		float:right;
 		text-align:right;
 	}
+	/*readnext*/
+		#readnext{
+			margin:6em auto;
+		}
+		#readnext header.wrapper{
+			margin:20px 0;
+			text-align:center;
+			color:rgba(0, 0, 0, 0.2);
+		}
+		#readnext article{
+			margin:1em auto;
+			box-sizing:border-box;
+		}
+		#readnext article p{
+				margin:10px 0;
+				color:rgba(0, 0, 0, 0.5);
+		}
+		#readnext article a.readmore{
+			color:#EE4938;
+		}
 /*> author*/
 	#author header.wrapper{
 		margin:30px auto;
@@ -158,7 +191,18 @@
 	#site-footer .ghost{
 		float:right;
 	}
-
+/*> pagination*/
+	.pagination{
+		margin:3em 0;
+		text-align:center;
+	}
+	.pagination h3{
+		color:rgba(0, 0, 0, 0.5);
+	}
+	.pagination ul li{
+		margin:5px 15px;
+		display:inline-block;
+	}
 /*> Navigation*/
 	#nav{
 		width:100%;

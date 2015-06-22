@@ -1,1 +1,12 @@
-{{! pagination goes here.}}
+{{! pagination template.}}
+<section class="pagination">
+  <h3 class"pagenum">Page {{page}} of {{pages}}</h3>
+  <ul>
+    {{#if prev}}
+      <li><a href="{{page_url prev}}">Previous Page</a></li>
+    {{/if}}
+    {{#if next}}
+      <li><a href="{{page_url next}}">Next Page</a></li>
+    {{/if}}
+  </ul>
+</section>
