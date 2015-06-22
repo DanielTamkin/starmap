@@ -29,10 +29,12 @@
 		text-align:center;
 	}
 	#site-nav .wrapper{
+		padding-bottom:0.5em;
 		border-bottom:1px solid rgba(0, 0, 0, 0.2);
 		display:inline-block;
 	}
 	#site-nav h1{
+		padding-left:1em;
 		text-align:left;
 		font-size:2em;
 	}
@@ -102,6 +104,9 @@
 		margin:1.6em auto;
 		font-size:2.1em;
 		text-align:center;
+	}
+	#site-frontpage h3{
+		margin-top:10px;
 	}
 	@media all and (max-width: 750px) {
 		#site-frontpage{
