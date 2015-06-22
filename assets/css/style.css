@@ -15,6 +15,10 @@
 		max-height:90px;
 		width:auto;
 	}
+	.site-logo-large{
+		max-height:140px;
+		width:auto;
+	}
 	#site-nav{
 		padding:0.5em;
 		box-sizing:border-box;
@@ -43,6 +47,25 @@
 		display:inline-block;
 		font-size:1.3em;
 	}
+/*> index*/
+	.site-cover{
+		margin:0 auto;
+		max-height:350px;
+		width:auto;
+
+	}
+	#site-frontpage{
+		margin:1.6em auto;
+		font-size:2.1em;
+		text-align:center;
+	}
+	#site-fronpage header .coverlogo{
+
+	}
+	#site-fronpage header h3{
+		color:rgba(0, 0, 0, 0.8);
+	}
+
 /*> loop*/
 	#loop article{
 		margin:25px 0;
