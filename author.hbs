@@ -1,5 +1,12 @@
 {{!< default}}
 {{! author template}}
-{{#author}}
-
-{{/author}}
+<section id="author">
+  <header class="wrapper Container-Tiny">
+    {{#author}}
+      <h3>author</h3>
+      <h1>{{name}}</h1>
+      <h3>{{bio}}</h3>
+    {{/author}}
+  </header>
+  {{> "loop"}}
+</section>

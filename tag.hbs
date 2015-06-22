@@ -1,2 +1,14 @@
 {{!< default}}
 {{! tag template}}
+<section id="tag">
+  <header class="wrapper Container-Tiny">
+    {{#tag}}
+      <h3>tag</h3>
+      <h1>{{name}}</h1>
+      {{#if description}}
+        <h3>{{description}}</h3>
+      {{/if}}
+    {{/tag}}
+  </header>
+  {{> "loop"}}
+</section>

@@ -10,6 +10,7 @@
 				</div>
 			{{/if}}
 			<h1>{{title}}</h1>
+			<hr/>
 		</header>
 		<section class="body">
 			{{content}}
@@ -18,6 +19,9 @@
 			{{#author}}
 				<section class="author">
 					<h2>by {{name}}</h2>
+					{{#tags}}
+						<p>for {{name}}</p>
+					{{/tags}}
 					<a href="{{url}}"><p>read more.</p></a>
 				</section>
 			{{/author}}

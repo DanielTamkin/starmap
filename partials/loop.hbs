@@ -4,16 +4,27 @@
 			<header>
 				<section class="title">
 					<a href="{{url}}"><h1>{{title}}</h1></a>
-					{{#author}}
-						<p>by <a href="{{url}}">{{name}}</a></p>
-					{{/author}}
+					{{#if tags}}
+						<p>
+							{{#author}}
+								by <a href="{{url}}">{{name}} for</a>
+							{{/author}}
+							{{#tags seporator=" & "}}
+								{{name}}
+							{{/tags}}
+						</p>
+					{{else}}
+						{{#author}}
+							<p>by <a href="{{url}}">{{name}}</a></p>
+						{{/author}}
+					{{/if}}
 				</section>
 			</header>
 			<section class="excerpt">
 				<p>{{excerpt words="40"}}...<a href="{{url}}" class="readmore">read more</a></p>
 			</section>
 			<footer>
-
+				<hr/>
 			</footer>
 		</article>
 	{{/foreach}}
