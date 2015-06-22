@@ -194,6 +194,14 @@
 		text-indent:6px;
 	}
 	#post section.body img{max-height:600px;width:auto;}
+	#post section.body h1{font-size:1.8em;}
+	#post section.body h2{font-size:1.5em;}
+	#post section.body p{margin:10px 0;}
+	#post section.body b{font-style:bold;}
+	#post section.body u{text-decoration:underline;}
+	#post section.body i{font-style:italic;}
+	#post section.body ul{list-style:square;}
+	#post section.body ol{list-style:lower-alpha;}
 	#post footer{
 		padding:15px 0;
 		box-sizing:border-box;
