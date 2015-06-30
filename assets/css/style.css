@@ -200,8 +200,12 @@
 		text-indent:6px;
 	}
 	#post section.body img{max-height:600px;width:auto;}
-	#post section.body h1{font-size:1.8em;}
-	#post section.body h2{font-size:1.5em;}
+	#post section.body h1{font-size:4em;}
+	#post section.body h2{font-size:3.7em;}
+	#post section.body h3{font-size:3.4em;}
+	#post section.body h4{font-size:2.7em;}
+	#post section.body h5{font-size:2.4em;}
+	#post section.body h6{font-size:1.7em;}
 	#post section.body p{margin:10px 0;}
 	#post section.body b{font-style:bold;}
 	#post section.body u{text-decoration:underline;}
