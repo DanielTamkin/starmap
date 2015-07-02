@@ -133,7 +133,7 @@
 		margin:5px 0;
 		color:#3A3A3A;
 		font-size:2.6em;
-		text-align:center;
+		text-align:left;
 	}
 	#loop article section.title p{
 			margin-top:10px;
@@ -187,6 +187,7 @@
 	}
 	#post header h1{
 		font-size:6.1em;
+		text-align:center;
 	}
 	#post header hr{
 		margin:30px auto;
@@ -300,7 +301,3 @@
 		display:inline-block;
 	}
 /*> Navigation*/
-	#nav{
-		width:100%;
-		display:inline-block;
-	}
