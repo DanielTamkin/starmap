@@ -1,7 +1,7 @@
 # starmap
 a Free, Typographic-Heavy [Ghost](http://ghost.org) Theme.
 
-If you have any suggestions or comments on this theme, Tweet me [@CodeHands](https://twitter.com/CodeHands) and Jaden [@jadnco](https://twitter.com/jadnco), or [create a new issue](https://github.com/DanielTamkin/starmap/issues).
+If you have any suggestions or comments on this theme, Tweet me [@CodeHands](https://twitter.com/CodeHands) or [create a new issue](https://github.com/DanielTamkin/starmap/issues).
 ### Installation
 1. Install Starmap to your Themes directory located at `ghost\content\themes`
 2. login to your ghost admin panel.

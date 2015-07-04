@@ -2,5 +2,33 @@
 
 {{! post template}}
 {{#post}}
-
+    <article id="post" class="Container-Small">
+        <header class="Container-">
+            {{#if image}}
+                <div class="image">
+                    <img src="{{image}}"/>
+                </div>
+            {{/if}}
+            <h1>{{title}}</h1>
+            <hr/>
+        </header>
+        <section class="body">
+            {{content}}
+        </section>
+        <footer>
+            <section class="author">
+                {{#author}}
+                    <h2>by <a href="{{url}}">{{name}}</a></h2>
+                {{/author}}
+                {{#if tags}}
+                    <p class="tags">for {{tags separator=" & "}}</p>
+                {{/if}}
+            </section>
+            <section class="social">
+                <h2>Share</h2>
+                <p>Share on <a href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}">Twitter</a>, <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}">facebook</a>.</p>
+            </section>
+        </footer>
+    </article>
 {{/post}}
+
