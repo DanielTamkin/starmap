@@ -3,6 +3,10 @@ a Free, Typographic-Heavy [Ghost](http://ghost.org) Theme.
 
 If you have any suggestions or comments on this theme, Tweet me [@CodeHands](https://twitter.com/CodeHands) or [create a new issue](https://github.com/DanielTamkin/starmap/issues).
 Also if you've got an idea on how to make Starmap better, [create a new issue](https://github.com/DanielTamkin/starmap/issues).
+
+[![PayPayl donate button](https://img.shields.io/badge/donate-paypal-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SGNLGR9725Y2U "Donate to DanielTamkin")
+
+
 ### Installation
 1. Install Starmap to your Themes directory located at `ghost\content\themes`
 2. login to your ghost admin panel.
