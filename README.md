@@ -40,3 +40,9 @@ Also if you've got an idea on how to make Starmap better, [create a new issue](h
 ### Loop
 
 ![Starmap-Loop](screenshots/starmap-loop.png)
+
+Details
+---
+| Fonts  |
+| ------------- | ------------- |
+| [Didactic](http://www.tylerfinck.com/didactic/)  |
