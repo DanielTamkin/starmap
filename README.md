@@ -46,3 +46,6 @@ Details
 | Fonts  |
 | ------------- | ------------- |
 | [Didactic](http://www.tylerfinck.com/didactic/)  |
+<p align="center">
+<a alt="Bitdeli Badge" href="https://bitdeli.com/free"><img alt="Bitdeli Badge" src="https://d2weczhvl823v0.cloudfront.net/DanielTamkin/starmap/trend.png"></a>
+</p>
