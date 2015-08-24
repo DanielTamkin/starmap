@@ -9,8 +9,8 @@ Also if you've got an idea on how to make Starmap better, [create a new issue](h
 
 ### Installation
 1. Install Starmap to your Themes directory located at `ghost\content\themes`
-2. login to your ghost admin panel.
-3. navigate to your `settings/general` panel.
+2. login to your ghost admin panel
+3. navigate to your `settings/general` panel
 4. Change your Theme setting to `Starmap`
 
 
